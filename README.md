@@ -12,11 +12,11 @@
 
 What variable(s) are the target(s) for your model?
 
-**The variable "IS_SUCCESSFUL" is the target of the model.
+**  The variable "IS_SUCCESSFUL" is the target of the model.
 
 What variable(s) are the features for your model?
 
-** All the other variables except "EIN" and "NAME" are the fetures of the model in the first attempt.
+* All the other variables except "EIN" and "NAME" are the fetures of the model in the first attempt.
 What variable(s) should be removed from the input data because they are neither targets nor features?
 
 ** The variables "STATUS"and "SPECIAL_CONSIDERATIONS" in the last two attempts.
