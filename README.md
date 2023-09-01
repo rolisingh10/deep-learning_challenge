@@ -20,7 +20,7 @@ What variable(s) are the features for your model?
   
 What variable(s) should be removed from the input data because they are neither targets nor features?
 
-* The variables "STATUS"and "SPECIAL_CONSIDERATIONS" in the last two attempts.
+* The variables "EIN" and "NAME" should be removed from the input data beacuse they are neither targets nor features.
 
 #### Compiling, Training, and Evaluating the Model
 
