@@ -12,19 +12,27 @@
 
 What variable(s) are the target(s) for your model?
 
-** The variable "IS_SUCCESSFUL" is the target of the model.
+**The variable "IS_SUCCESSFUL" is the target of the model.
+
 What variable(s) are the features for your model?
+
 ** All the other variables except "EIN" and "NAME" are the fetures of the model in the first attempt.
 What variable(s) should be removed from the input data because they are neither targets nor features?
+
 ** The variables "STATUS"and "SPECIAL_CONSIDERATIONS" in the last two attempts.
 
 #### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 ** I selected 4 layers in the last attempt with 10, 8, 6, 2 nodes in the respective layers. I chose relu and sigmoid activation functions. I chose more layers and nodes since I was not getting the desired accuracy.
+
 Were you able to achieve the target model performance?
+
 ** I was not able to achieve the target model performance.
+
 What steps did you take in your attempts to increase model performance?
+
 ** I added one more layer and increased the number of nodes in the previous layers.
 ** I dropped two columns in the dataset.
 ** I increased and decreased the number of epochs.
